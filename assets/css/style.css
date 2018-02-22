@@ -6,16 +6,23 @@ body{
 .noscroll{
   overflow: hidden;
 }
+.row{
+  width: 100%; 
+}
 .container{
   width: 100%;
   background-image: url(../img/fondo_completo.jpg);
   background-size: 100%; 
   background-repeat: no-repeat;
   height: 800vh;
-  margin-top: 0px; 
+  margin:0;
+}
+
+header{
+  position: fixed;
 }
 header nav{
-  width: 90%; 
+  width: 100%; 
   max-width: 1000px;
   height: 4em;
 }
@@ -54,6 +61,25 @@ nav ul li a:hover{
   font-family: "Poiret One", cursive;
   font-size: 2em;
 }
+
+/*Logo*/
+.altura{
+  height: 170vh; 
+}
+.alturaProyect{
+  height: 150vh; 
+}
+.alturaAbout{
+  height: 310vh; 
+}
+
+#logo{
+  height: 80vh;
+  background-image: url(../img/logo.png);
+  background-size: 85%;
+  background-repeat: no-repeat;
+  margin-top: 6em;
+}
  
 @media screen and (max-width: 800px){
   .menu_bar{
@@ -91,3 +117,4 @@ nav ul li a:hover{
   }
 
 }
+
