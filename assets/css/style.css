@@ -7,7 +7,8 @@ body{
   overflow: hidden;
 }
 .row{
-  width: 100%; 
+  width: 100%;
+  padding-left: 30px;  
 }
 .container{
   width: 100%;
@@ -64,13 +65,17 @@ nav ul li a:hover{
 
 /*Logo*/
 .altura{
-  height: 170vh; 
+  height: 180vh; 
 }
 .alturaProyect{
-  height: 150vh; 
+  height: 300vh; 
 }
 .alturaAbout{
-  height: 310vh; 
+  height: 140vh; 
+}
+
+.alturaContact{
+  height: 168vh;
 }
 
 #logo{
@@ -80,6 +85,78 @@ nav ul li a:hover{
   background-repeat: no-repeat;
   margin-top: 6em;
 }
+
+/* About me */
+#meImg{
+  margin-left: 180px; 
+  margin-top: 9em;
+  height: 30vh;
+}
+#description {
+  margin-left: 30px; 
+  margin-top: 6em;
+  height: 45vh; 
+  background-color: rgba(56, 24, 24, .27)
+}
+
+#offDescription{
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: black;
+  opacity: .7;
+}
+#description h1{
+  font-size: 3.5em;
+  font-family: "Poiret One", cursive;
+  text-align: center;
+}
+.skills{
+  height: 30vh;
+  margin-top: 2em;
+}
+
+.skills div{
+  height: 5em;
+}
+
+.skills p{
+  text-align: center;
+}
+
+/* Proyectos */
+
+.proyectDescription{
+  margin-top: 5em; 
+  height: 30vh;
+}
+
+.proyectDescription h1{
+  text-align: center;
+  font-size: 3.5em;
+  font-family: "Poiret One", cursive;
+  color: #FFF;
+  margin-top: 10px;
+  margin-bottom: 5px; 
+}
+
+.proyectDescription hr{
+  width: 80px; 
+  color: #FFF;
+}
+
+#descriProyect{
+  text-align: center;
+  color: #FFF;
+  font-family: "Poiret One", cursive;
+}
+
+
+
+
  
 @media screen and (max-width: 800px){
   .menu_bar{
