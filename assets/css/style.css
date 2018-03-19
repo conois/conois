@@ -22,6 +22,11 @@ body{
   margin:0;
 }
 
+input::placeholder, textarea::placeholder{
+  font-family: "Poiret One", cursive;
+  font-weight: 700; 
+}
+
 header{
   position: fixed;
 }
@@ -89,6 +94,9 @@ nav ul li a:hover{
 }
 
 /* About me */
+#aboutme{
+  color:black;
+}
 #meImg{
   margin-left: 180px; 
   margin-top: 9em;
@@ -98,7 +106,9 @@ nav ul li a:hover{
   margin-left: 30px; 
   margin-top: 6em;
   height: 45vh; 
-  background-color: rgba(56, 24, 24, .27)
+  background-color: rgba(56, 24, 24, .27); 
+  color: #000; 
+  font-weight: 700;
 }
 
 #offDescription{
@@ -111,6 +121,7 @@ nav ul li a:hover{
   background-color: black;
   opacity: .7;
 }
+
 #description h1{
   font-size: 3.5em;
   font-family: "Poiret One", cursive;
@@ -119,6 +130,8 @@ nav ul li a:hover{
 .skills{
   height: 30vh;
   margin-top: 2em;
+  color: #000;
+  font-weight: 700;
 }
 
 .skills div{
@@ -158,6 +171,13 @@ nav ul li a:hover{
 
 #cont-proyect-mobile{
   outline: 2px solid red; 
+}
+
+.box_proyect {
+  height: 33em;
+  border: 1px solid #fff;
+  margin-right: 40px;
+  margin-bottom: 20px; 
 }
 
 /* Contacto */
