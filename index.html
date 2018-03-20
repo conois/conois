@@ -77,7 +77,7 @@
 						<img height="486px" width="280px" src="assets/img/artGallery.png" class="image">
 						<div class="middle">
 					  	<div>
-					  		<button class="btnMore">Click for more</button>
+					  		<button id="art_gallery" class="btnMore">Click to see the proyect</button>
 					  	</div>
 						</div>
 					</div>
@@ -86,7 +86,7 @@
 					<div class="cont">
 						<img height="486px" width="280px" src="assets/img/Foodmap_mobile.png" class="image">
 						<div class="middle">
-					  		<button class="btnMore">Click for more</button>
+					  		<button id="food_map" class="btnMore">Click to see the project</button>
 						</div>
 					 </div>
 				</div>
@@ -95,7 +95,7 @@
 						<img height="486px" width="280px" src="assets/img/twitter_mobile.png" class="image">
 						<div class="middle">
 						  <div>
-						  	<button class="btnMore">Click for more</button>
+						  	<button id="twitter" class="btnMore">Click to see the project</button>
 						  </div>
 						</div>
 					 </div>
@@ -108,7 +108,7 @@
 						<img height="486px" width="265px" src="assets/img/pokemon_mobile.png" class="image">
 						<div class="middle">
 						  <div>
-						  	<button class="btnMore">Click for more</button>
+						  	<button id="pokemon" class="btnMore">Click to see the project</button>
 						  </div>
 						</div>
 					</div>
@@ -118,7 +118,7 @@
 						<img height="486px" width="265px" src="assets/img/trivia_mobile.png" class="image">
 						<div class="middle">
 						  <div>
-						  	<button class="btnMore">Click for more</button>
+						  	<button id="trivia" class="btnMore">Click to see the project</button>
 						  </div>
 						</div>
 					</div>
@@ -128,7 +128,7 @@
 						<img height="486px" width="265px" src="assets/img/mountainConnection_mobile.png" class="image">
 						<div class="middle">
 						  <div>
-						  	<button class="btnMore">Click for more</button>
+						  	<button id="mountain_conecction" class="btnMore">Click to see the project</button>
 						  </div>
 						</div>
 					</div>
@@ -167,10 +167,40 @@
 			
 	</section>
 
+<!-- Modal -->
+<div id="modal_project" class="modal">
+	<div class="modal_bg"></div>
+	<div class="modal_main">
+		<div class="modal_header">
+			<img height="40px" width="40px" src="assets/img/Button-7-close-icon.png" class="close">
+		</div>
+		<div class="modal_body">
+			<div class="row">
+				<div class="col-md-9 iframe">
+					<iframe src=""></iframe>
+				</div>
+				<div class="col-md-3 description_project">
+					<div class="info_project">
+						<h1>Title</h1>
+						<p>Description</p>
+						<p>Habilities</p>
+						<p>Design for ...</p> 
+					</div>
+					<div>
+						<button class="btnCode"><a href="" target = "_blank" >See the code</a></button>
+					</div>	
+				</div>
+			</div>			
+		</div>
+	</div>	<!-- modal main  -->
+</div>
+
 
 </div>
 
 <script type="text/javascript" src="assets/js/jquery-3.3.1.min.js"></script>
+<script type="text/javascript" src=""></script>
 <script type="text/javascript" src="assets/js/proyecto.js"></script>
+<script type="text/javascript" src="assets/js/data.js"></script>
 </body>
 </html>

@@ -1,6 +1,8 @@
 $(document).ready( ()=> {
 	main();
-	beautyScroll(); 
+	beautyScroll();
+	modal();
+	closeModal();  
 })
 
 function main(){
@@ -31,4 +33,51 @@ function beautyScroll() {
 			},1000);
 		
 	});
+}
+
+function modal () {
+	$(".btnMore").click( () => {
+		const e = event.target.id;  
+		for ( let i=0; i<project.length; i++) {
+			if ( e == project[i].id ) {
+				$(".modal").html(`
+					<!-- Modal -->
+						<div id="modal_project" class="modal">
+							<div class="modal_bg"></div>
+							<div class="modal_main">
+								<div class="modal_header">
+									<img height="40px" width="40px" src="assets/img/Button-7-close-icon.png" class="close">
+								</div>
+								<div class="modal_body">
+									<div class="row">
+										<div class="col-md-9 iframe">
+											<iframe src="${project[i].url}"></iframe>
+										</div>
+										<div class="col-md-3 description_project">
+											<div class="info_project">
+												<h1>${project[i].title}</h1>
+												<p>Description: ${project[i].description}</p>
+												<p>Habilities: ${project[i].habilities}</p>
+												<p>Design for : ${project[i].design_to}</p> 
+											</div>
+											<div>
+												<button class="btnCode"><a href="${project[i].code}" target="_blank">See the code</a></button>
+											</div>	
+										</div>
+									</div>			
+								</div>
+							</div>	<!-- modal main  -->
+						</div>
+
+					`)
+			}
+		}
+		$(".modal").fadeIn();
+	})
+}
+
+function closeModal() {
+	$(document).on("click", ".close", function (){
+		$(".modal").fadeOut(); 
+	} ) 
 }
