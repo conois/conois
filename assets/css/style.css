@@ -50,7 +50,7 @@ nav ul{
   padding-top: 1em;
   list-style: none;
   overflow: hidden;
-  }
+}
 
 nav ul li{
   float: left;
@@ -77,10 +77,6 @@ nav ul li a:hover{
 }
 
 
-.night-hotel:hover {
-  background: none;
-  text-shadow: 0 0 5px rgb(255,255,255) , 0 0 10px rgb(255,255,255) , 0 0 15px rgb(255,255,255) , 0 0 20px rgb(255,17,119) , 0 0 35px rgb(255,17,119) , 0 0 40px rgb(255,17,119) , 0 0 50px rgb(255,17,119) , 0 0 75px rgb(255,17,119) ;
-}
 .menu_bar{
   display: none;
 }
@@ -112,6 +108,7 @@ nav ul li a:hover{
   background-size: 85%;
   background-repeat: no-repeat;
   margin-top: 6em;
+  z-index: 10; 
 }
 
 
