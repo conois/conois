@@ -9,16 +9,18 @@ function main(){
 	contador = 1; 
 	$(".menu_bar").click( () => {
 		if(contador == 1){
+			$("#logo").hide()
 			$("nav").animate({
 				left: '0', 
 			})
 			$('body').addClass('noscroll');
 			contador = 0; 
 		} else{
-			contador = 1; 
+			contador = 1;
 			$("nav").animate({
 				left: '-100%',
 			})
+			$("#logo").fadeIn()
 			$('body').removeClass('noscroll');
 		}
 	})
@@ -31,8 +33,8 @@ function beautyScroll() {
 			$('body,html').stop(true,true).animate({				
 				scrollTop: $(strAncla).offset().top
 			},1000);
-		
 	});
+	
 }
 
 function modal () {
