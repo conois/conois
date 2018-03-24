@@ -9,16 +9,16 @@ function main(){
 	contador = 1; 
 	$(".menu_bar").click( () => {
 		if(contador == 1){
-			$("#logo").hide()
+			$("#logo").fadeOut()
 			$("nav").animate({
-				left: '0', 
+				top: '6%', 
 			})
 			$('body').addClass('noscroll');
 			contador = 0; 
 		} else{
 			contador = 1;
 			$("nav").animate({
-				left: '-100%',
+				top: '-100%',
 			})
 			$("#logo").fadeIn()
 			$('body').removeClass('noscroll');
