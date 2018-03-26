@@ -53,10 +53,10 @@ function modal () {
 								</div>
 								<div class="modal_body">
 									<div class="row">
-										<div class="col-md-9 iframe">
+										<div class="col-md-9 col-sm-8 iframe">
 											<iframe height="549px" width="320px" src="${project[i].url}" id="iframeFood"></iframe>
 										</div>
-										<div class="col-md-3 description_project">
+										<div class="col-md-3 col-sm-4 description_project">
 											<div class="info_project">
 												<h1>${project[i].title}</h1>
 												<p>Description: ${project[i].description}</p>
@@ -84,10 +84,10 @@ function modal () {
 								</div>
 								<div class="modal_body">
 									<div class="row">
-										<div class="col-md-9 iframe">
+										<div class="col-md-9 col-sm-8 iframe">
 											<iframe src="${project[i].url}"></iframe>
 										</div>
-										<div class="col-md-3 description_project">
+										<div class="col-md-3 col-sm-4 description_project">
 											<div class="info_project">
 												<h1>${project[i].title}</h1>
 												<p>Description: ${project[i].description}</p>

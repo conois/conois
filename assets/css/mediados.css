@@ -1,0 +1,109 @@
+@media screen and (min-width: 430px) and (max-width: 768px){
+.container{
+	height: 528vh; 
+}
+/*Logo*/
+.altura{
+  height: 120vh; 
+}
+.alturaProyect{
+  height: 205vh; 
+}
+.alturaAbout{
+  height: 100vh; 
+}
+.alturaContact{
+  height: 140vh;
+}
+
+#logo{
+  height: 50vh;
+}
+.overlay{
+  height: 100vh;
+}
+.overlay_two{
+  height: 310vh;
+  }
+
+/*About Me*/
+#meImg{
+  margin-left: 100px; 
+  margin-top: 9em;
+  height: 20vh;
+}
+
+#description {
+	margin-left: 100px; 
+}
+
+#description h1{
+	font-size: 2.5em; 
+}
+
+#description p {
+	font-size: 16px; 
+}
+.img-skills{
+	height: 60px; 
+}	
+.skills h3{
+	margin-top: 0;
+	padding-top: 5px;
+	margin-bottom: 0px;   
+}
+
+.skills p{
+	margin-top: 2px; 
+}
+.fa-js-square {font-size: 75px;}
+.fa-css3-alt {font-size: 75px;}
+.fa-node-js{font-size: 75px;}
+.fa-html5{font-size: 75px;}
+
+/*Proyects*/
+.menosPadd{
+	margin-left: -25px; 
+}
+	
+.box_proyect img{
+	height: 70vh;
+	width: auto;
+	margin-left: 0;
+}
+.middle {
+  left: 90%;
+}
+.btnMore{
+  height: 50px; 
+  width: 110px;
+  font-size: 16px;
+}
+
+iframe, #iframeFood{
+  height:470px; 
+  width: 320px;
+  margin-left: 20px; 
+}
+
+.btnCode{
+  margin-top: 25%;
+  margin-left: 15%;
+}
+/*Contact */
+
+.contactDescription{
+  margin-top: 50px; 
+}
+.contactDescription h1 {
+  padding-top: 10px;
+  font-size: 2.5em;
+  margin-top: 20px;
+  margin-bottom: 0;  
+}
+
+#redes{
+	margin-top: 55px;
+	font-size: 16px; 
+}
+}
