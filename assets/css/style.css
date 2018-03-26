@@ -118,6 +118,12 @@ nav ul li a:hover{
   height: 170vh;
   overflow: hidden;
 }
+.overlay_two{
+  top: 0; 
+  width: 100%;
+  height: 490vh;
+  overflow: hidden;
+  }
 
 #stars {
   width: 1px;
