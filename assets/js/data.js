@@ -17,7 +17,7 @@ let project = [
 	habilities: " JavaScript, API REST, HTML5, CSS3 y Bootstrap",
 	design_to: "Responsive", 
 	image_desktop : "assets/img/art_gallery_desk.png", 
-	url: "",
+	url: "https://hobilin.github.io/spa/",
 	code: "https://github.com/conois/App-Galery-",  
 }, 
 {

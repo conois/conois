@@ -28,13 +28,13 @@
 
 /*About Me*/
 #meImg{
-  margin-left: 100px; 
-  margin-top: 9em;
+  margin-left: 40px; 
+  margin-top: 7em;
   height: 20vh;
 }
 
 #description {
-	margin-left: 100px; 
+	margin-left: 60px; 
 }
 
 #description h1{
