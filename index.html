@@ -8,6 +8,7 @@
 	<link rel="stylesheet" type="text/css" href="assets/css/flexboxgrid.min.css">
 	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
 	<link rel="stylesheet" type="text/css" href="assets/css/media.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/csshake.min.css">
 	<script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
 </head>
 <body>
@@ -32,7 +33,7 @@
 
 
 			<div class="row">
-				<div id="logo" class="col-xs-10 col-xs-offset-1 col-md-6 col-md-offset-3">
+				<div id="logo" class="col-xs-10 col-xs-offset-1 col-md-6 col-md-offset-3 shake-constant shake-slow">
 				</div>
 			</div>
 		</div>
@@ -43,26 +44,30 @@
 			<div id="meImg" class="col-xs-6 col-xs-offset-3 col-md-2 col-md-offset-2">
 				<img src="" alt="me">
 			</div>
-			<div id="description" class="col-xs-10 col-xs-offset-1 col-md-5 col-md-offset-0">
+			<div id="description" class="col-xs-10 col-xs-offset-1 col-md-5 col-md-offset-0 shake-constant shake-slow">
 				<h1>About Me</h1>
-				<p>Hi! I'm front-end developer graduate of Laboratoria. <br> My principal skills are HTML5, CSS3 and Javascript.<br> In my bootcamp I worked whit Sass, Bootstrap, <br>Flexbox Grid, React and Redux. </p>
+				<p>Hi! I'm front-end developer. I like make and create, I think web development greatly merges both. These are some of my skills </p>
 			</div>
-			<div class="row mySkills">
+			<div class="row mySkills center-xs center-md">
 			<div class="skills col-xs-6 col-md-3">
-				<div id="logohtml" class="img-skill col-xs-12 col-md-6 col-md-offset-3"><i class="fab fa-html5"></i></div>
-				<p>HTML5 and its Api friends</p>
+				<div id="logohtml" class="img-skill col-xs-12 col-md-6 col-md-offset-3"><span><i class="fab fa-html5"></i></span></div>
+				<h3>HTML 5 </h3>
+				<p>And its Api friends</p>
 			</div>
 			<div class="skills col-xs-6 col-md-3">
 				<div id="logocss" class="img-skill col-xs-12  col-md-6 col-md-offset-3"><i class="fab fa-css3-alt"></i></div>
-				<p>CSS3 animation and styles</p>
+				<h3>CSS3</h3>
+				<p>Animation and styles</p>
 			</div>
 			<div class="skills col-xs-6 col-md-3">
 				<div id="logojs" class="img-skill col-xs-12 col-md-6 col-md-offset-3"><i class="fab fa-js-square"></i></div>
-				<p>Javascript for a dinamic content</p>
+				<h3>Javascript</h3>
+				<p>For a dinamic content</p>
 			</div>
 			<div class="skills col-xs-6 col-md-3">
 				<div id="logonode" class="img-skill col-xs-12 col-md-6 col-md-offset-3"><i class="fab fa-node-js"></i></div>
-				<p>Node.js the perfect parner </p>
+				<h3>Node.js </h3>
+				<p>The perfect parner </p>
 			</div>
 			</div>
 		</div>		
@@ -70,7 +75,7 @@
 
 	<section id="proyect" class="alturaProyect">
 		<div class="row">
-			<div class="proyectDescription col-xs-8 col-xs-offset-2 col-md-4 col-md-offset-4">
+			<div class="proyectDescription col-xs-8 col-xs-offset-2 col-md-4 col-md-offset-4 shake-constant shake-slow">
 				<h1>Projects</h1>
 				<hr>
 				<p id="descriProyect">Description projects</p>
@@ -82,7 +87,7 @@
 						<img  src="assets/img/artGallery.png" class="image">
 						<div class="middle">
 					  	<div>
-					  		<button id="art_gallery" class="btnMore">Click to see the proyect</button>
+					  		<button id="art_gallery" class="btnMore">View <i class="fas fa-eye"></i></button>
 					  	</div>
 						</div>
 					</div>
@@ -91,7 +96,7 @@
 					<div class="cont">
 						<img height="486px" width="280px" src="assets/img/Foodmap_mobile.png" class="image">
 						<div class="middle">
-					  		<button id="food_map" class="btnMore">Click to see the project</button>
+					  		<button id="food_map" class="btnMore">View <i class="fas fa-eye"></i></button>
 						</div>
 					 </div>
 				</div>
@@ -100,20 +105,20 @@
 						<img height="486px" width="280px" src="assets/img/twitter_mobile.png" class="image">
 						<div class="middle">
 						  <div>
-						  	<button id="twitter" class="btnMore">Click to see the project</button>
+						  	<button id="twitter" class="btnMore">View <i class="fas fa-eye"></i></button>
 						  </div>
 						</div>
 					 </div>
 				</div>
 			</div>
 		
-			<div class="row between-md col-xs-11">
+			<div class="row between-md">
 				<div class="box_proyect col-md">
 					<div class="cont">
-						<img height="486px" width="280px" src="assets/img/pokemon_mobile.png" class="image">
+						<img src="assets/img/pokemon_mobile.png" class="image">
 						<div class="middle">
 						  <div>
-						  	<button id="pokemon" class="btnMore">Click to see the project</button>
+						  	<button id="pokemon" class="btnMore">View <i class="fas fa-eye"></i></button>
 						  </div>
 						</div>
 					</div>
@@ -123,7 +128,7 @@
 						<img src="assets/img/trivia_mobile.png" class="image">
 						<div class="middle">
 						  <div>
-						  	<button id="trivia" class="btnMore">Click to see the project</button>
+						  	<button id="trivia" class="btnMore">View <i class="fas fa-eye"></i></button>
 						  </div>
 						</div>
 					</div>
@@ -133,7 +138,7 @@
 						<img src="assets/img/mountainConnection_mobile.png" class="image">
 						<div class="middle">
 						  <div>
-						  	<button id="mountain_conecction" class="btnMore">Click to see the project</button>
+						  	<button id="mountain_conecction" class="btnMore">View <i class="fas fa-eye"></i></button>
 						  </div>
 						</div>
 					</div>
@@ -144,14 +149,15 @@
 	</section>
 
 	<section id="contact" class="alturaContact">
-		<div class="contactDescription col-xs-8 col-xs-offset-2 col-md-4 col-md-offset-4">
+		<div class="contactDescription col-xs-8 col-xs-offset-2 col-md-4 col-md-offset-4 shake-constant shake-slow">
 				<h1>Contact</h1>
 				<hr>
-				<p id="descriContact">Did you like my job? You want to contact me or just discuss code, ideas, proyects, or give, feedback, of this same portfolio, go ahead! I'm attentive, you can write me an email, call me or find me on my LinkedIn account</p>
+				<p id="descriContact">Did you like my job? You want to contact me or just discuss code, ideas, proyects, or give, feedback, of this same portfolio, go ahead! </p>
+				<p class="visibility-mobile descriContactMobile"> Get in Touch ! </p>
 			</div>
 			
 			<div class="row">
-				<div class="col-xs-10 col-xs-offset-1 col-md-5 col-md-offset-1" id="meForm">
+				<div class="col-xs-10 col-xs-offset-2 col-md-5 col-md-offset-1" id="meForm">
 					<form action="mailto:conii.echeverria@gmail.com" method="post">
 						<label>Name</label><br>
 						<input type="text" name="nombre" placeholder="You name is ... "><br>
@@ -164,20 +170,30 @@
 				</div>
 
 				<div class="col-xs-10 col-xs-offset-1 col-md-4" id="redes">
-					<p><span><i class="fab fa-linkedin"></i><a href="www.linkedin.com/Constanza.Echeverría"> LinkedIn </a></span></p>
+					<p><span><i class="fab fa-linkedin"></i><a href="https://www.linkedin.com/in/constanzaecheverriacerda"> LinkedIn </a></span></p>
 					<p><span><i class="fas fa-mobile"></i> + 56 9 97979430</span></p>
 					<p><span><i class="far fa-envelope"></i> conii.echeverría@gmail.com</span></p>
+					<p><span><i class="fab fa-github"></i><a href="https://github.com/conois">Github</a></span></p>
 				</div>
 			</div>
+
+
+			<div class="col-xs-10 col-xs-offset-1 visibility-mobile" id="contact-mobile">
+				<p>You can <a href="tel:+56997979430">Call me</a></p>
+				<p> or write me an <a href="mailto:conii.echeverria@gmail.com">  email</a></p>
+				<p>And this is my <a href="https://www.linkedin.com/in/constanzaecheverriacerda">LinkedIn</a></p>
+				<p>And my <a href="https://github.com/conois">Github</a></p>
 			
 	</section>
+
+
 
 <!-- Modal -->
 <div id="modal_project" class="modal">
 	<div class="modal_bg"></div>
 	<div class="modal_main">
 		<div class="modal_header">
-			<img height="40px" width="40px" src="assets/img/Button-7-close-icon.png" class="close">
+			<span class="close"><i class="far fa-window-close"></i></span>
 		</div>
 		<div class="modal_body">
 			<div class="row">
@@ -192,7 +208,7 @@
 						<p>Design for ...</p> 
 					</div>
 					<div>
-						<button class="btnCode"><a href="" target = "_blank" >See the code</a></button>
+						<button class="btnCode"><a href="" target = "_blank">Code<i class="fas fa-code"></i></a></button>
 					</div>	
 				</div>
 			</div>			
@@ -208,3 +224,4 @@
 <script type="text/javascript" src="assets/js/data.js"></script>
 </body>
 </html>
+

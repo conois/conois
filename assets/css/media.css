@@ -4,6 +4,7 @@
     padding: 0;
     color: #FFF;
     font-family: "Poiret One", cursive;
+    background: #97071E; 
   }
   .container{
     background: #97071E;
@@ -18,7 +19,7 @@
   .menu_bar{
     display: block;
     margin-left: 0;
-    width: 312%;
+    width: 425px;
     padding-top: 5px;
     padding-left: 0px; 
     font-size: 1em;
@@ -27,15 +28,16 @@
     color: #000;
     margin-top: -10px;
     height: 6vh;
+    overflow-x: hidden;
   }
 
+
   .menu_bar p{
-    text-align: center;
     margin-top: 0;
+    padding-left: 20px;
     font-size: 22px;
     color:#97071E;
   }
-
   header nav{
     background-color: rgba(255,255,255, .8); 
     height: 100vh;
@@ -90,13 +92,13 @@ nav ul li a:nth-child(4){padding-left: 40px;}
   height: 565px; 
   }
   .alturaProyect{
-    height: 510vh; 
+    height: 524vh; 
   }
   .alturaAbout{
     height: 173vh; 
   }
   .alturaContact{
-    height: 158vh;
+    height: 100vh;
   }
 
   .overlay{
@@ -121,10 +123,9 @@ nav ul li a:nth-child(4){padding-left: 40px;}
   color: white;
 }
 #meImg{
-  margin-left: 25%; 
+  margin-left: 20%; 
   margin-top: 13vh; 
   height: 30vh;
-  outline: 2px solid white; 
 }
 #description {
   text-align: center;
@@ -175,8 +176,10 @@ nav ul li a:nth-child(4){padding-left: 40px;}
   font-size: 14px; 
 }
 .img-skill{
-  height: 120px; 
+  height: 120px;
+  margin: auto;
 }
+
 
 /*Proyect*/
 .proyectDescription{
@@ -215,12 +218,59 @@ nav ul li a:nth-child(4){padding-left: 40px;}
   height: inherit;
   width: inherit;
 }
-.
+/*Contact */
+.contactDescription h1 {
+  margin-top: 10px; 
+  margin-bottom: 5px; 
+  padding-top: 100px; 
+}
+
+#descriContact{
+  text-align: justify;
+  padding-left: 8px;
+  display: none; 
+}
+
+.descriContactMobile{
+  text-align: center;
+}
+#meForm{
+  margin-top: 10px;
+  padding-left: 0;
+  display: none; 
+
+
+}
+#meform form {
+  width: 100%;
+}
+
+#redes{
+  display: none; 
+}
+#contact-mobile p {
+  text-align: center;
+}
+
+#contact-mobile p a{
+  font-weight: 700;
+}
+.visibility-mobile{
+  display: block;
+}
+
+.overlay_two{
+  height: 300px;
+}
+
+
 /*Modal*/
 
 .close{
   z-index: 10;  
 }
+
+/*Starts*/
 
   
 
