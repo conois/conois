@@ -118,3 +118,6 @@ function closeModal() {
 		$(".modal").fadeOut(); 
 	} ) 
 }
+
+function openProyectMobile(){
+}
