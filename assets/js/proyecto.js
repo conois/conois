@@ -11,14 +11,14 @@ function main(){
 		if(contador == 1){
 			$("#logo").fadeOut()
 			$("nav").animate({
-				top: '6%', 
+				top: '0%', 
 			})
 			$('body').addClass('noscroll');
 			contador = 0; 
 		} else{
 			contador = 1;
 			$("nav").animate({
-				top: '-100%',
+				top: '-120%',
 			})
 			$("#logo").fadeIn()
 			$('body').removeClass('noscroll');
