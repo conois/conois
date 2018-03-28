@@ -11,7 +11,7 @@ function main(){
 		if(contador == 1){
 			$("#logo").fadeOut()
 			$("nav").animate({
-				top: '0%', 
+				top: '6%', 
 			})
 			$('body').addClass('noscroll');
 			contador = 0; 
